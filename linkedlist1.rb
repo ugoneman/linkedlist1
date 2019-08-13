@@ -46,6 +46,7 @@ def reverse_list(list)
     mystack1 = list.value
     mystack2.push(mystack1)
     list = list.next_node
+    list = list.next_node
   end
   return mystack2.data
 end
